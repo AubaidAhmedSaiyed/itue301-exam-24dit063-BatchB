@@ -17,7 +17,7 @@ const doctors = [
   },
   {
     id: "d3",
-    name: "Dr. Priya Nair",
+    name: "Dr.Nair",
     email: "priya.nair@medcareplus.com",
     specialisation: "Dermatology",
     available: true,

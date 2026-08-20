@@ -4,7 +4,6 @@ const cors = require("cors");
 
 const requestLogger = require("./middleware/requestLogger");
 const errorHandler = require("./middleware/errorHandler");
-
 const doctorsRouter = require("./routes/doctors");
 const appointmentsRouter = require("./routes/appointments");
 
