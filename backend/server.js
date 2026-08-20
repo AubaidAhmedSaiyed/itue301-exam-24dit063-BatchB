@@ -30,7 +30,7 @@ app.use((req, res, next) => {
   next(err);
 });
 
-// --- Global error handler: MUST be the last middleware ---
+// --- Global error handler
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
